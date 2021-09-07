@@ -1,3 +1,59 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
+@import "./_variables";
+
+body {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+header {
+    background-image: url(/images/mobile/image-hero.jpg);
+    background-repeat: no-repeat;
+
+    .navbar{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 2.5em 1.5em;
+
+        .logo img {
+            width:9em;
+            height: auto;
+        }
+
+        #toggle {
+            content: '';
+            background-color: white;
+            height:3px;
+            width: 25px;
+            border-top: 1px;
+        }
+
+        #toggle::after {
+            position: absolute;
+            content: '';
+            background-color: white;
+            height:3px;
+            width: 25px;
+            border-top: 1px;
+            margin: 0.5em 0 0 0;
+        }
+
+        #toggle::before {
+            position: absolute;
+            content: '';
+            background-color: white;
+            height:3px;
+            width: 25px;
+            border-top: 1px;
+            margin: -0.5em 0 0 0;
+
+        }
+    
+    }
+
+}
 
