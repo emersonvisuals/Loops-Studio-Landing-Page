@@ -124,6 +124,7 @@ header .header-title h1 {
       -ms-flex-align: center;
           align-items: center;
   margin: 2em 0 0 0;
+  padding: 0 1em;
 }
 
 .one .section-01-details h1 {
@@ -308,5 +309,91 @@ header .header-title h1 {
   font-family: Alata;
   letter-spacing: 0.25em;
   border: 1.25px solid black;
+}
+
+#footer {
+  background-color: black;
+}
+
+#footer .logo-title {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 3em 0 0.25em 0;
+}
+
+#footer .logo-title img {
+  height: auto;
+  width: 8em;
+}
+
+#footer .footer-list ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  list-style: none;
+  padding: 0;
+}
+
+#footer .footer-list li {
+  padding: 1em 0;
+}
+
+#footer .footer-list li a {
+  color: white;
+  font-family: Alata;
+  font-weight: lighter;
+  list-style: none;
+  text-decoration: none;
+}
+
+#footer .social-media ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  list-style: none;
+  padding: 2em 0 0 0;
+}
+
+#footer .social-media li {
+  margin: 0 0.75em;
+}
+
+#footer .disclaimer {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 0 0 4em 0;
+}
+
+#footer .disclaimer h1 {
+  font-size: 1em;
+  font-family: Josefin Sans;
+  color: #8c8c8c;
 }
 /*# sourceMappingURL=main.css.map */

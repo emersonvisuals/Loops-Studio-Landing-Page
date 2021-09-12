@@ -96,6 +96,7 @@ header {
         justify-content: center;
         align-items: center;
         margin: 2em 0 0 0;
+        padding: 0 1em;
 
         h1 {
             font-family: $fontFamily02;
@@ -273,6 +274,74 @@ header {
             font-family: $fontFamily01;
             letter-spacing: 0.25em;
             border: 1.25px solid $black;
+        }
+    }
+
+}
+
+#footer {
+    background-color: $black;
+
+    .logo-title {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 3em 0 0.25em 0;
+
+        img {
+            height: auto;
+            width: 8em;
+        }
+    }
+
+    .footer-list{
+
+        ul {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            list-style: none;
+            padding: 0;
+        }
+
+        li {
+            padding: 1em 0;
+        }
+
+        li a {
+            color: $white;
+            font-family: $fontFamily01;
+            font-weight: lighter;
+            list-style: none;
+            text-decoration: none;
+        }
+    }
+
+    .social-media {
+
+        ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+            padding: 2em 0 0 0;
+        }
+
+        li {
+            margin: 0 0.75em;
+        }
+    }
+
+    .disclaimer {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0 0 4em 0;
+
+        h1 {
+            font-size: 1em;
+            font-family: $fontFamily02;
+            color:$darkGray
         }
     }
 
