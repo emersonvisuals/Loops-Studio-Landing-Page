@@ -10,7 +10,8 @@ body {
 header {
   background-image: url(/images/mobile/image-hero.jpg);
   background-repeat: no-repeat;
-  background-size: 100%;
+  background-position: -50px 0;
+  background-size: 125%;
   height: 100vh;
 }
 
@@ -38,18 +39,16 @@ header .navbar .logo img {
 header .navbar #toggle {
   content: '';
   background-color: white;
-  height: 3px;
+  height: 2px;
   width: 25px;
-  border-top: 1px;
 }
 
 header .navbar #toggle::after {
   position: absolute;
   content: '';
   background-color: white;
-  height: 3px;
+  height: 2px;
   width: 25px;
-  border-top: 1px;
   margin: 0.5em 0 0 0;
 }
 
@@ -57,9 +56,8 @@ header .navbar #toggle::before {
   position: absolute;
   content: '';
   background-color: white;
-  height: 3px;
+  height: 2px;
   width: 25px;
-  border-top: 1px;
   margin: -0.5em 0 0 0;
 }
 
@@ -77,25 +75,25 @@ header .header-title {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  margin: 8em 2em 0 2em;
+  padding: 10em 1.5em 11.5em 1.5em;
 }
 
 header .header-title h1 {
   color: white;
   font-family: Josefin Sans;
   font-weight: lighter;
-  font-size: 3em;
-  border: solid;
-  padding: 0.75em;
+  font-size: 2.5em;
+  border: solid 2px;
+  padding: 0.5em;
 }
 
 .one {
-  height: 100%;
+  height: auto;
   margin: 0 0 4em 0;
 }
 
 .one .section-01-image {
-  margin: 8em 0 0 0;
+  margin: 6em 0 0 0;
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -133,19 +131,21 @@ header .header-title h1 {
   text-transform: uppercase;
   text-align: center;
   font-weight: lighter;
-  font-size: 2.5em;
+  font-size: 2em;
 }
 
 .one .section-01-details p {
-  font-family: Josefin Sans;
-  font-size: 20px;
+  font-family: Alata;
+  color: #8c8c8c;
+  font-weight: normal;
+  font-size: 15px;
   line-height: 1.5em;
   text-align: center;
   margin: 0 3em;
 }
 
 .two {
-  height: 100vh;
+  height: auto;
 }
 
 .two .two-title {
@@ -158,10 +158,11 @@ header .header-title h1 {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  margin: 0 0 1em 0;
 }
 
 .two .two-title h1 {
-  font-size: 2.5em;
+  font-size: 2em;
   font-family: Josefin Sans;
   font-weight: lighter;
   text-transform: uppercase;
@@ -172,7 +173,7 @@ header .header-title h1 {
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 .two .section-02-image-01 h1 {
@@ -188,7 +189,7 @@ header .header-title h1 {
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 .two .section-02-image-02 h1 {
@@ -204,7 +205,7 @@ header .header-title h1 {
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 .two .section-02-image-03 h1 {
@@ -220,7 +221,7 @@ header .header-title h1 {
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 .two .section-02-image-04 h1 {
@@ -236,7 +237,7 @@ header .header-title h1 {
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 .two .section-02-image-05 h1 {
@@ -252,7 +253,7 @@ header .header-title h1 {
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 .two .section-02-image-06 h1 {
@@ -268,7 +269,7 @@ header .header-title h1 {
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 .two .section-02-image-07 h1 {
@@ -284,7 +285,7 @@ header .header-title h1 {
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
-  padding: 5em 0;
+  padding: 2em 0;
 }
 
 .two .section-02-image-08 h1 {
@@ -293,5 +294,19 @@ header .header-title h1 {
   text-transform: uppercase;
   font-weight: lighter;
   margin: 0 0 0 1em;
+}
+
+.two .button-container {
+  text-align: center;
+  margin: 0 0 6em 0;
+}
+
+.two .button-container button.see-all {
+  background-color: transparent;
+  padding: 0.5em 3em;
+  text-transform: uppercase;
+  font-family: Alata;
+  letter-spacing: 0.25em;
+  border: 1.25px solid black;
 }
 /*# sourceMappingURL=main.css.map */
