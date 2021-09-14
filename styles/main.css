@@ -41,6 +41,9 @@ header .navbar #toggle {
   background-color: white;
   height: 2px;
   width: 25px;
+  -webkit-transition: 0.1s all;
+  transition: 0.1s all;
+  z-index: 1;
 }
 
 header .navbar #toggle::after {
@@ -50,6 +53,8 @@ header .navbar #toggle::after {
   height: 2px;
   width: 25px;
   margin: 0.5em 0 0 0;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
 }
 
 header .navbar #toggle::before {
@@ -59,6 +64,32 @@ header .navbar #toggle::before {
   height: 2px;
   width: 25px;
   margin: -0.5em 0 0 0;
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+header .navbar #toggle.active::after {
+  margin: 0;
+  -webkit-transform: rotate(45deg);
+          transform: rotate(45deg);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+header .navbar #toggle.active::before {
+  margin: 0;
+  -webkit-transform: rotate(-45deg);
+          transform: rotate(-45deg);
+  -webkit-transition: 0.5s all;
+  transition: 0.5s all;
+}
+
+header .navbar #toggle.active {
+  content: '';
+  background-color: white;
+  height: 0px;
+  -webkit-transition: 0.1s all;
+  transition: 0.1s all;
 }
 
 header .header-title {
@@ -85,6 +116,62 @@ header .header-title h1 {
   font-size: 2.5em;
   border: solid 2px;
   padding: 0.5em;
+}
+
+header #mobile-menu {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100vh;
+  padding: 1.25em;
+  background-color: black;
+  -webkit-transform: translateX(500px);
+          transform: translateX(500px);
+  -webkit-transition: 0.75s all;
+  transition: 0.75s all;
+}
+
+header #mobile-menu .menu-logo img {
+  width: 8em;
+  height: auto;
+  margin: 1.5em 0 0 0;
+}
+
+header #mobile-menu ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  padding: 0;
+  margin: 40% 0 0 0;
+}
+
+header #mobile-menu ul li {
+  padding: 0.75em 0;
+}
+
+header #mobile-menu ul li a {
+  color: #8c8c8c;
+  font-family: Josefin Sans;
+  text-decoration: none;
+  list-style: none;
+  font-size: 1.25em;
+}
+
+header #mobile-menu.active {
+  -webkit-transform: translateX(0px);
+          transform: translateX(0px);
+  -webkit-transition: 0.75s all;
+  transition: 0.75s all;
 }
 
 .one {
