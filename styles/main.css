@@ -35,6 +35,10 @@ header .navbar {
   padding: 2.5em 1.5em;
 }
 
+header .navbar .desktop-navbar {
+  visibility: hidden;
+}
+
 header .navbar .logo img {
   margin: 0.25em 0 0 0;
   width: 8em;
@@ -284,7 +288,7 @@ header #mobile-menu.active {
 }
 
 .two .section-02-image-01 {
-  background-image: url(/images/mobile/image-deep-earth.jpg);
+  background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-deep-earth.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
@@ -300,7 +304,7 @@ header #mobile-menu.active {
 }
 
 .two .section-02-image-02 {
-  background-image: url(/images/mobile/image-night-arcade.jpg);
+  background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-night-arcade.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
@@ -316,7 +320,7 @@ header #mobile-menu.active {
 }
 
 .two .section-02-image-03 {
-  background-image: url(/images/mobile/image-soccer-team.jpg);
+  background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-soccer-team.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
@@ -332,7 +336,7 @@ header #mobile-menu.active {
 }
 
 .two .section-02-image-04 {
-  background-image: url(/images/mobile/image-grid.jpg);
+  background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-grid.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
@@ -348,7 +352,7 @@ header #mobile-menu.active {
 }
 
 .two .section-02-image-05 {
-  background-image: url(/images/mobile/image-from-above.jpg);
+  background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-from-above.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
@@ -364,7 +368,7 @@ header #mobile-menu.active {
 }
 
 .two .section-02-image-06 {
-  background-image: url(/images/mobile/image-pocket-borealis.jpg);
+  background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-pocket-borealis.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
@@ -380,7 +384,7 @@ header #mobile-menu.active {
 }
 
 .two .section-02-image-07 {
-  background-image: url(/images/mobile/image-curiosity.jpg);
+  background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-curiosity.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
@@ -396,7 +400,7 @@ header #mobile-menu.active {
 }
 
 .two .section-02-image-08 {
-  background-image: url(/images/mobile/image-fisheye.jpg);
+  background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-fisheye.jpg);
   background-repeat: no-repeat;
   background-size: 120%;
   margin: 0 2em 2em 2em;
@@ -498,6 +502,7 @@ header #mobile-menu.active {
 
 #footer .social-media li {
   margin: 0 0.75em;
+  cursor: pointer;
 }
 
 #footer .disclaimer {
@@ -517,5 +522,82 @@ header #mobile-menu.active {
   font-size: 1.25em;
   font-family: Josefin Sans;
   color: #8c8c8c;
+}
+
+@media only screen and (min-width: 1200px) {
+  header {
+    background-image: radial-gradient(at bottom left, #1b1b1b 0%, rgba(255, 255, 255, 0) 150%), url(/images/desktop/image-hero.jpg);
+    height: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+  }
+  header .navbar {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    -webkit-box-pack: end;
+        -ms-flex-pack: end;
+            justify-content: flex-end;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    padding: 5em 10em;
+  }
+  header .navbar .desktop-navbar {
+    visibility: visible;
+    padding: 0;
+  }
+  header .navbar .desktop-navbar ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  header .navbar .desktop-navbar ul li {
+    padding: 0 1em;
+  }
+  header .navbar .desktop-navbar ul li a {
+    text-align: center;
+    font-family: Alata;
+    font-size: 1.2em;
+    color: white;
+    text-decoration: none;
+  }
+  header .navbar .logo {
+    padding: 0;
+    margin: 0;
+  }
+  header .navbar .logo img {
+    width: 200px;
+    height: auto;
+  }
+  header .navbar #toggle-trigger {
+    display: none;
+  }
+  header .navbar #toggle-trigger #toggle {
+    display: none;
+  }
+  header .header-title {
+    padding: 5em 30em 10em 10em;
+  }
+  header .header-title h1 {
+    color: white;
+    font-family: Josefin Sans;
+    font-weight: lighter;
+    font-size: 5em;
+    border: solid 2px;
+    padding: 0.5em;
+  }
 }
 /*# sourceMappingURL=main.css.map */
