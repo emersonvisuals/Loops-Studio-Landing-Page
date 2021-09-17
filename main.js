@@ -6,9 +6,9 @@ const menu = document.querySelector('#mobile-menu');
 const toggleActive = document.querySelector('#toggle.active');
 const body = document.body;
 
-// function
-trigger.onclick = function() {
+trigger.addEventListener('click', function(){
     toggle.classList.toggle('active');
     menu.classList.toggle('active');
     body.classList.toggle('active');
-}
+});
+
