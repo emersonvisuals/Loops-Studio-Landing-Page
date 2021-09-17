@@ -229,6 +229,10 @@ header {
             text-transform: uppercase;
         }
     }
+    
+    button.desktop {
+        visibility: hidden;
+    }
 
     .section-02-image-01 {
         background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-deep-earth.jpg);
@@ -547,20 +551,21 @@ header {
             position: absolute;
             display: flex;
             flex-direction: column;
-            justify-content: center;
-            align-items: center;
-            margin:-15em 10em 0 50em;
+            justify-content: flex-start;
+            align-items: flex-start;
+            padding: 5% 0 5% 5%;
+            margin:-18% 10em 0 50%;
             background-color: $white;
     
             h1 {
                 text-align: center;
                 font-family: $fontFamily02;
                 text-transform:uppercase;
-                text-align: center;
+                text-align: left;
                 font-weight: lighter;
                 font-size: 3em;
                 margin:0;
-                padding:1em 1em 0 1em;
+                padding:0;
             }
     
             p {
@@ -570,9 +575,230 @@ header {
                 font-size: 18px;
                 line-height: 1.5em;
                 text-align: left;
-                margin:0;
-                padding:1em;
+                margin:1em 0 0 0;
+                padding:0;
             }
         }
     }
+
+    
+.two {
+    height: auto;
+    padding: 10em 10em 0 10em;
+
+    .wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        .two-title {
+            display: flex;
+            justify-content: flex-start;
+            padding:0;
+            margin:0;
+    
+            h1 {
+                font-size: 3em;
+                font-family: $fontFamily02;
+                font-weight: lighter;
+                text-transform: uppercase;
+            }
+        }
+
+    
+        button.desktop {
+            visibility: visible;
+            background-color: transparent;
+            padding: 0.5em 3em;
+            text-transform: uppercase;
+            font-family: $fontFamily01;
+            letter-spacing: 0.25em;
+            border: 1.25px solid $black;
+            cursor: pointer;
+        }
+    
+        button.desktop:hover {
+            background-color: $black;
+            color:white;
+            transition: 0.5s all;
+        }
+    }
+
+    .container-01 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 500px;
+        grid-gap: 1em;
+        padding:0;
+        margin:0 0 1em 0;
+
+        .section-02-image-01 {
+            background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/desktop/image-deep-earth.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 14% 7%;
+    
+            h1 {
+                color: $white;
+                font-family: $fontFamily02;
+                text-transform: uppercase;
+                font-weight: lighter;
+                margin: 0;
+                padding:0;
+            }
+        }
+    
+        .section-02-image-02 {
+            background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/desktop/image-night-arcade.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 14% 7%;
+    
+            h1 {
+                color: $white;
+                font-family: $fontFamily02;
+                text-transform: uppercase;
+                font-weight: lighter;
+                margin: 0;
+                padding:0;
+            }
+        }
+    
+        .section-02-image-03 {
+            background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/desktop/image-soccer-team.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 14% 7%;;
+    
+            h1 {
+                color: $white;
+                font-family: $fontFamily02;
+                text-transform: uppercase;
+                font-weight: lighter;
+                margin: 0;
+                padding:0;
+            }
+        }
+    
+        .section-02-image-04 {
+            background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/desktop/image-grid.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 14% 7%;
+    
+            h1 {
+                color: $white;
+                font-family: $fontFamily02;
+                text-transform: uppercase;
+                font-weight: lighter;
+                margin: 0;
+                padding:0;
+            }
+        }
+    }
+
+    .container-02 {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-auto-rows: 500px;
+        grid-gap: 1em;
+        padding:0;
+        margin:0;
+
+        .section-02-image-05 {
+            background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/desktop/image-from-above.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 14% 7%;
+    
+            h1 {
+                color: $white;
+                font-family: $fontFamily02;
+                text-transform: uppercase;
+                font-weight: lighter;
+                margin: 0;
+                padding:0;
+            }
+        }
+    
+        .section-02-image-06 {
+            background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/desktop/image-pocket-borealis.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 14% 7%;
+    
+            h1 {
+                color: $white;
+                font-family: $fontFamily02;
+                text-transform: uppercase;
+                font-weight: lighter;
+                margin: 0;
+                padding:0;
+            }
+        }
+    
+        .section-02-image-07 {
+            background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/desktop/image-curiosity.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 14% 7%;
+    
+            h1 {
+                color: $white;
+                font-family: $fontFamily02;
+                text-transform: uppercase;
+                font-weight: lighter;
+                margin: 0;
+                padding:0;
+            }
+        }
+    
+        .section-02-image-08 {
+            background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/desktop/image-fisheye.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            margin: 0;
+            padding: 14% 7%;
+    
+            h1 {
+                color: $white;
+                font-family: $fontFamily02;
+                text-transform: uppercase;
+                font-weight: lighter;
+                margin: 0;
+                padding:0;
+            }
+        }
+    }
+
+
+    .button-container {
+        visibility: hidden;
+
+
+        button.see-all{
+            background-color: transparent;
+            padding: 0.5em 3em;
+            text-transform: uppercase;
+            font-family: $fontFamily01;
+            letter-spacing: 0.25em;
+            border: 1.25px solid $black;
+            cursor: pointer;
+        }
+
+        button.see-all:hover {
+            background-color: $black;
+            color:white;
+            transition: 0.5s all;
+        }
+    }
+
+}
 }
