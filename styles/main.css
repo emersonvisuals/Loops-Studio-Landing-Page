@@ -13,6 +13,7 @@ body.active {
 
 header {
   background-image: url(/images/mobile/image-hero.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
   background-position: -50px 0;
   background-size: 125%;
@@ -598,6 +599,63 @@ header #mobile-menu.active {
     font-size: 5em;
     border: solid 2px;
     padding: 0.5em;
+  }
+  .one {
+    height: auto;
+    padding: 0;
+  }
+  .one .section-01-image {
+    padding: 10em 0 0 10em;
+    margin: 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+  }
+  .one .section-01-image img {
+    padding: 0;
+    margin: 0;
+    width: 60%;
+  }
+  .one .section-01-details {
+    position: absolute;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: -15em 10em 0 50em;
+    background-color: white;
+  }
+  .one .section-01-details h1 {
+    text-align: center;
+    font-family: Josefin Sans;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: lighter;
+    font-size: 3em;
+    margin: 0;
+    padding: 1em 1em 0 1em;
+  }
+  .one .section-01-details p {
+    font-family: Alata;
+    color: #8c8c8c;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 1.5em;
+    text-align: left;
+    margin: 0;
+    padding: 1em;
   }
 }
 /*# sourceMappingURL=main.css.map */
