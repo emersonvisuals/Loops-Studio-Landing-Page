@@ -579,6 +579,86 @@ header #mobile-menu.active {
     color: white;
     text-decoration: none;
   }
+  header .navbar .desktop-navbar .navbar-about::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 2em 0 0 0.75em;
+    opacity: 0%;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  header .navbar .desktop-navbar .navbar-about:hover:before {
+    opacity: 100%;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  header .navbar .desktop-navbar .navbar-careers::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 2em 0 0 1em;
+    opacity: 0%;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  header .navbar .desktop-navbar .navbar-careers:hover:before {
+    opacity: 100%;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  header .navbar .desktop-navbar .navbar-events::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 2em 0 0 0.75em;
+    opacity: 0%;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  header .navbar .desktop-navbar .navbar-events:hover:before {
+    opacity: 100%;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  header .navbar .desktop-navbar .navbar-products::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 2em 0 0 1.25em;
+    opacity: 0%;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  header .navbar .desktop-navbar .navbar-products:hover:before {
+    opacity: 100%;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  header .navbar .desktop-navbar .navbar-support::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 2em 0 0 1.25em;
+    opacity: 0%;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  header .navbar .desktop-navbar .navbar-support:hover:before {
+    opacity: 100%;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
   header .navbar .logo {
     padding: 0;
     margin: 0;
@@ -719,65 +799,121 @@ header #mobile-menu.active {
     padding: 0;
     margin: 0 0 1em 0;
   }
-  .two .container-01 .section-02-image-01 {
+  .two .container-01 #section-02-image-01 {
     background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/desktop/image-deep-earth.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(196, 196, 196, 0);
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    padding: 0;
     margin: 0;
-    padding: 14% 7%;
   }
-  .two .container-01 .section-02-image-01 h1 {
+  .two .container-01 #section-02-image-01 h1 {
     color: white;
     font-family: Josefin Sans;
+    font-size: 2em;
     text-transform: uppercase;
     font-weight: lighter;
+    padding: 100% 0 0 10%;
     margin: 0;
-    padding: 0;
   }
-  .two .container-01 .section-02-image-02 {
+  .two .container-01 #section-02-image-01.active {
+    background-color: #dfdfdf;
+    background-blend-mode: soft-light;
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    cursor: pointer;
+  }
+  .two .container-01 #section-02-image-01.active h1 {
+    color: black;
+  }
+  .two .container-01 #section-02-image-02 {
     background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/desktop/image-night-arcade.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(196, 196, 196, 0);
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    padding: 0;
     margin: 0;
-    padding: 14% 7%;
   }
-  .two .container-01 .section-02-image-02 h1 {
+  .two .container-01 #section-02-image-02 h1 {
     color: white;
     font-family: Josefin Sans;
     text-transform: uppercase;
     font-weight: lighter;
     margin: 0;
-    padding: 0;
+    padding: 100% 0 0 10%;
+    font-size: 2em;
   }
-  .two .container-01 .section-02-image-03 {
+  .two .container-01 #section-02-image-02.active {
+    background-color: #dfdfdf;
+    background-blend-mode: soft-light;
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    cursor: pointer;
+  }
+  .two .container-01 #section-02-image-02.active h1 {
+    color: black;
+  }
+  .two .container-01 #section-02-image-03 {
     background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/desktop/image-soccer-team.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(196, 196, 196, 0);
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    padding: 0;
     margin: 0;
-    padding: 14% 7%;
   }
-  .two .container-01 .section-02-image-03 h1 {
+  .two .container-01 #section-02-image-03 h1 {
     color: white;
     font-family: Josefin Sans;
     text-transform: uppercase;
     font-weight: lighter;
     margin: 0;
-    padding: 0;
+    padding: 100% 0 0 10%;
+    font-size: 2em;
   }
-  .two .container-01 .section-02-image-04 {
+  .two .container-01 #section-02-image-03.active {
+    background-color: #dfdfdf;
+    background-blend-mode: soft-light;
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    cursor: pointer;
+  }
+  .two .container-01 #section-02-image-03.active h1 {
+    color: black;
+  }
+  .two .container-01 #section-02-image-04 {
     background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/desktop/image-grid.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(196, 196, 196, 0);
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    padding: 0;
     margin: 0;
-    padding: 14% 7%;
   }
-  .two .container-01 .section-02-image-04 h1 {
+  .two .container-01 #section-02-image-04 h1 {
     color: white;
     font-family: Josefin Sans;
     text-transform: uppercase;
     font-weight: lighter;
     margin: 0;
-    padding: 0;
+    padding: 100% 0 0 10%;
+    font-size: 2em;
+  }
+  .two .container-01 #section-02-image-04.active {
+    background-color: #dfdfdf;
+    background-blend-mode: soft-light;
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    cursor: pointer;
+  }
+  .two .container-01 #section-02-image-04.active h1 {
+    color: black;
   }
   .two .container-02 {
     display: -ms-grid;
@@ -786,68 +922,124 @@ header #mobile-menu.active {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-auto-rows: 500px;
     grid-gap: 1em;
+    background-color: rgba(196, 196, 196, 0);
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
     padding: 0;
     margin: 0;
   }
-  .two .container-02 .section-02-image-05 {
+  .two .container-02 #section-02-image-05 {
     background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/desktop/image-from-above.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     margin: 0;
-    padding: 14% 7%;
+    padding: 0;
   }
-  .two .container-02 .section-02-image-05 h1 {
+  .two .container-02 #section-02-image-05 h1 {
     color: white;
     font-family: Josefin Sans;
     text-transform: uppercase;
     font-weight: lighter;
     margin: 0;
-    padding: 0;
+    padding: 100% 0 0 10%;
+    font-size: 2em;
   }
-  .two .container-02 .section-02-image-06 {
+  .two .container-02 #section-02-image-05.active {
+    background-color: #dfdfdf;
+    background-blend-mode: soft-light;
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    cursor: pointer;
+  }
+  .two .container-02 #section-02-image-05.active h1 {
+    color: black;
+  }
+  .two .container-02 #section-02-image-06 {
     background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/desktop/image-pocket-borealis.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(196, 196, 196, 0);
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    padding: 0;
     margin: 0;
-    padding: 14% 7%;
   }
-  .two .container-02 .section-02-image-06 h1 {
+  .two .container-02 #section-02-image-06 h1 {
     color: white;
     font-family: Josefin Sans;
     text-transform: uppercase;
     font-weight: lighter;
     margin: 0;
-    padding: 0;
+    padding: 100% 0 0 10%;
+    font-size: 2em;
   }
-  .two .container-02 .section-02-image-07 {
+  .two .container-02 #section-02-image-06.active {
+    background-color: #dfdfdf;
+    background-blend-mode: soft-light;
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    cursor: pointer;
+  }
+  .two .container-02 #section-02-image-06.active h1 {
+    color: black;
+  }
+  .two .container-02 #section-02-image-07 {
     background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/desktop/image-curiosity.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(153, 118, 118, 0);
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    padding: 0;
     margin: 0;
-    padding: 14% 7%;
   }
-  .two .container-02 .section-02-image-07 h1 {
+  .two .container-02 #section-02-image-07 h1 {
     color: white;
     font-family: Josefin Sans;
     text-transform: uppercase;
     font-weight: lighter;
     margin: 0;
-    padding: 0;
+    padding: 100% 0 0 10%;
+    font-size: 2em;
   }
-  .two .container-02 .section-02-image-08 {
+  .two .container-02 #section-02-image-07.active {
+    background-color: #dfdfdf;
+    background-blend-mode: soft-light;
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    cursor: pointer;
+  }
+  .two .container-02 #section-02-image-07.active h1 {
+    color: black;
+  }
+  .two .container-02 #section-02-image-08 {
     background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/desktop/image-fisheye.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+    background-color: rgba(196, 196, 196, 0);
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    padding: 0;
     margin: 0;
-    padding: 14% 7%;
   }
-  .two .container-02 .section-02-image-08 h1 {
+  .two .container-02 #section-02-image-08 h1 {
     color: white;
     font-family: Josefin Sans;
     text-transform: uppercase;
     font-weight: lighter;
     margin: 0;
-    padding: 0;
+    padding: 100% 0 0 10%;
+    font-size: 2em;
+  }
+  .two .container-02 #section-02-image-08.active {
+    background-color: #dfdfdf;
+    background-blend-mode: soft-light;
+    -webkit-transition: 0.3s ease background-color;
+    transition: 0.3s ease background-color;
+    cursor: pointer;
+  }
+  .two .container-02 #section-02-image-08.active h1 {
+    color: black;
   }
   .two .button-container {
     visibility: hidden;
@@ -866,6 +1058,182 @@ header #mobile-menu.active {
     color: white;
     -webkit-transition: 0.5s all;
     transition: 0.5s all;
+  }
+  #footer {
+    background-color: black;
+  }
+  #footer .logo-title {
+    display: none;
+  }
+  #footer .logo-title img {
+    visibility: hidden;
+  }
+  #footer .footer-list {
+    display: none;
+  }
+  #footer .social-media {
+    padding: 4em 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+  }
+  #footer .social-media ul {
+    padding: 0 10em 0 0;
+    margin: 0;
+  }
+  #footer .social-media ul li {
+    margin: 0 0.75em;
+    cursor: pointer;
+  }
+  #footer .social-media ul li::before {
+    position: absolute;
+    content: '';
+    width: 25px;
+    height: 3px;
+    background-color: white;
+    margin: 2em 0 0 0;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+    opacity: 0;
+  }
+  #footer .social-media ul li:hover::before {
+    opacity: 100%;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  #footer .social-media .logo-title-desktop {
+    padding: 0 0 0 10em;
+  }
+  #footer .disclaimer {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: end;
+        -ms-flex-align: end;
+            align-items: flex-end;
+    padding: 1em 10em 4em 0;
+    margin: 0;
+  }
+  #footer .disclaimer ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: row;
+            flex-direction: row;
+    -webkit-box-pack: start;
+        -ms-flex-pack: start;
+            justify-content: flex-start;
+    -webkit-box-align: start;
+        -ms-flex-align: start;
+            align-items: flex-start;
+    list-style: none;
+    padding: 0 0 0 8.5em;
+  }
+  #footer .disclaimer li {
+    padding: 0 1.5em;
+  }
+  #footer .disclaimer a {
+    color: white;
+    font-family: Alata;
+    font-weight: lighter;
+    list-style: none;
+    text-decoration: none;
+  }
+  #footer .disclaimer .about-footer::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 2em 0 0 0.6em;
+    opacity: 0%;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  #footer .disclaimer .about-footer:hover:before {
+    opacity: 100%;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  #footer .disclaimer .careers-footer::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 2em 0 0 1em;
+    opacity: 0%;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  #footer .disclaimer .careers-footer:hover:before {
+    opacity: 100%;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  #footer .disclaimer .events-footer::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 2em 0 0 0.6em;
+    opacity: 0%;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  #footer .disclaimer .events-footer:hover:before {
+    opacity: 100%;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  #footer .disclaimer .products-footer::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 2em 0 0 1em;
+    opacity: 0%;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  #footer .disclaimer .products-footer:hover:before {
+    opacity: 100%;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  #footer .disclaimer .support-footer::before {
+    position: absolute;
+    content: '';
+    background-color: white;
+    width: 25px;
+    height: 3px;
+    margin: 2em 0 0 1em;
+    opacity: 0%;
+    -webkit-transition: 0.5s all;
+    transition: 0.5s all;
+  }
+  #footer .disclaimer .support-footer:hover:before {
+    opacity: 100%;
+    -webkit-transition: 0.3s all;
+    transition: 0.3s all;
+  }
+  #footer .disclaimer h1 {
+    font-size: 1.25em;
+    font-family: Josefin Sans;
+    color: #8c8c8c;
   }
 }
 /*# sourceMappingURL=main.css.map */
