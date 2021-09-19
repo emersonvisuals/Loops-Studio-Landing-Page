@@ -17,7 +17,6 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    height: 100vh;
 
     .navbar{
         display: flex;
@@ -236,7 +235,7 @@ header {
     #section-02-image-01 {
         background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-deep-earth.jpg);
         background-repeat: no-repeat;
-        background-size: 120%;
+        background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
 
@@ -252,7 +251,7 @@ header {
     #section-02-image-02 {
         background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-night-arcade.jpg);
         background-repeat: no-repeat;
-        background-size: 120%;
+        background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
 
@@ -268,7 +267,7 @@ header {
     #section-02-image-03 {
         background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-soccer-team.jpg);
         background-repeat: no-repeat;
-        background-size: 120%;
+        background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
 
@@ -284,7 +283,7 @@ header {
     #section-02-image-04 {
         background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-grid.jpg);
         background-repeat: no-repeat;
-        background-size: 120%;
+        background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
 
@@ -300,7 +299,7 @@ header {
     #section-02-image-05 {
         background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-from-above.jpg);
         background-repeat: no-repeat;
-        background-size: 120%;
+        background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
 
@@ -316,7 +315,7 @@ header {
     #section-02-image-06 {
         background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-pocket-borealis.jpg);
         background-repeat: no-repeat;
-        background-size: 120%;
+        background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
 
@@ -332,7 +331,7 @@ header {
     #section-02-image-07 {
         background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-curiosity.jpg);
         background-repeat: no-repeat;
-        background-size: 120%;
+        background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
 
@@ -348,7 +347,7 @@ header {
     #section-02-image-08 {
         background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-fisheye.jpg);
         background-repeat: no-repeat;
-        background-size: 120%;
+        background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
 
