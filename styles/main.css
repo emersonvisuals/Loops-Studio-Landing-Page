@@ -16,6 +16,7 @@ header {
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
+  height: 100vh;
 }
 
 header .navbar {
@@ -129,7 +130,7 @@ header .header-title {
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 10em 1.5em 11.5em 1.5em;
+  padding: 6em 1.5em 12em 1.5em;
 }
 
 header .header-title h1 {

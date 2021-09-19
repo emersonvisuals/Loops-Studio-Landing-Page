@@ -17,6 +17,7 @@ header {
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
+    height:100vh;
 
     .navbar{
         display: flex;
@@ -105,7 +106,7 @@ header {
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        padding: 10em 1.5em 11.5em 1.5em;
+        padding: 6em 1.5em 12em 1.5em;
 
         h1 {
             color: $white;
