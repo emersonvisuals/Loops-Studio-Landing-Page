@@ -297,6 +297,7 @@ header #mobile-menu.active {
   background-size: cover;
   margin: 0 2em 2em 2em;
   padding: 2em 0;
+  cursor: pointer;
 }
 
 .two #section-02-image-01 h1 {
@@ -307,12 +308,24 @@ header #mobile-menu.active {
   margin: 1em 0 0 1em;
 }
 
+.two #section-02-image-01.click {
+  background-color: #dfdfdf;
+  background-blend-mode: soft-light;
+  -webkit-transition: 0.3s ease background-color;
+  transition: 0.3s ease background-color;
+}
+
+.two #section-02-image-01.click h1 {
+  color: black;
+}
+
 .two #section-02-image-02 {
   background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-night-arcade.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 2em 2em 2em;
   padding: 2em 0;
+  cursor: pointer;
 }
 
 .two #section-02-image-02 h1 {
@@ -323,12 +336,24 @@ header #mobile-menu.active {
   margin: 1em 0 0 1em;
 }
 
+.two #section-02-image-02.click {
+  background-color: #dfdfdf;
+  background-blend-mode: soft-light;
+  -webkit-transition: 0.3s ease background-color;
+  transition: 0.3s ease background-color;
+}
+
+.two #section-02-image-02.click h1 {
+  color: black;
+}
+
 .two #section-02-image-03 {
   background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-soccer-team.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 2em 2em 2em;
   padding: 2em 0;
+  cursor: pointer;
 }
 
 .two #section-02-image-03 h1 {
@@ -339,12 +364,24 @@ header #mobile-menu.active {
   margin: 1em 0 0 1em;
 }
 
+.two #section-02-image-03.click {
+  background-color: #dfdfdf;
+  background-blend-mode: soft-light;
+  -webkit-transition: 0.3s ease background-color;
+  transition: 0.3s ease background-color;
+}
+
+.two #section-02-image-03.click h1 {
+  color: black;
+}
+
 .two #section-02-image-04 {
   background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-grid.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 2em 2em 2em;
   padding: 2em 0;
+  cursor: pointer;
 }
 
 .two #section-02-image-04 h1 {
@@ -355,12 +392,25 @@ header #mobile-menu.active {
   margin: 1em 0 0 1em;
 }
 
+.two #section-02-image-04.click {
+  background-color: #dfdfdf;
+  background-blend-mode: soft-light;
+  -webkit-transition: 0.3s ease background-color;
+  transition: 0.3s ease background-color;
+  cursor: pointer;
+}
+
+.two #section-02-image-04.click h1 {
+  color: black;
+}
+
 .two #section-02-image-05 {
   background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-from-above.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 2em 2em 2em;
   padding: 2em 0;
+  cursor: pointer;
 }
 
 .two #section-02-image-05 h1 {
@@ -371,12 +421,25 @@ header #mobile-menu.active {
   margin: 1em 0 0 1em;
 }
 
+.two #section-02-image-05.click {
+  background-color: #dfdfdf;
+  background-blend-mode: soft-light;
+  -webkit-transition: 0.3s ease background-color;
+  transition: 0.3s ease background-color;
+  cursor: pointer;
+}
+
+.two #section-02-image-05.click h1 {
+  color: black;
+}
+
 .two #section-02-image-06 {
   background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-pocket-borealis.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 2em 2em 2em;
   padding: 2em 0;
+  cursor: pointer;
 }
 
 .two #section-02-image-06 h1 {
@@ -387,12 +450,24 @@ header #mobile-menu.active {
   margin: 1em 0 0 1em;
 }
 
+.two #section-02-image-06.click {
+  background-color: #dfdfdf;
+  background-blend-mode: soft-light;
+  -webkit-transition: 0.3s ease background-color;
+  transition: 0.3s ease background-color;
+}
+
+.two #section-02-image-06.click h1 {
+  color: black;
+}
+
 .two #section-02-image-07 {
   background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-curiosity.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 2em 2em 2em;
   padding: 2em 0;
+  cursor: pointer;
 }
 
 .two #section-02-image-07 h1 {
@@ -403,12 +478,24 @@ header #mobile-menu.active {
   margin: 1em 0 0 1em;
 }
 
+.two #section-02-image-07.click {
+  background-color: #dfdfdf;
+  background-blend-mode: soft-light;
+  -webkit-transition: 0.3s ease background-color;
+  transition: 0.3s ease background-color;
+}
+
+.two #section-02-image-07.click h1 {
+  color: black;
+}
+
 .two #section-02-image-08 {
   background-image: radial-gradient(at bottom left, #383838 0%, rgba(255, 255, 255, 0) 100%), url(/images/mobile/image-fisheye.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   margin: 0 2em 2em 2em;
   padding: 2em 0;
+  cursor: pointer;
 }
 
 .two #section-02-image-08 h1 {
@@ -417,6 +504,17 @@ header #mobile-menu.active {
   text-transform: uppercase;
   font-weight: lighter;
   margin: 1em 0 0 1em;
+}
+
+.two #section-02-image-08.click {
+  background-color: #dfdfdf;
+  background-blend-mode: soft-light;
+  -webkit-transition: 0.3s ease background-color;
+  transition: 0.3s ease background-color;
+}
+
+.two #section-02-image-08.click h1 {
+  color: black;
 }
 
 .two .button-container {

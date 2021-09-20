@@ -239,6 +239,7 @@ header {
         background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
+        cursor: pointer;
 
         h1 {
             color: $white;
@@ -246,6 +247,16 @@ header {
             text-transform: uppercase;
             font-weight: lighter;
             margin: 1em 0 0 1em;
+        }
+    }
+
+    #section-02-image-01.click {
+        background-color: rgb(223, 223, 223);
+        background-blend-mode: soft-light;
+        transition: 0.3s ease background-color;
+
+        h1 {
+            color: black;
         }
     }
 
@@ -255,6 +266,7 @@ header {
         background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
+        cursor: pointer;
 
         h1 {
             color: $white;
@@ -262,6 +274,16 @@ header {
             text-transform: uppercase;
             font-weight: lighter;
             margin: 1em 0 0 1em;
+        }
+    }
+
+    #section-02-image-02.click {
+        background-color: rgb(223, 223, 223);
+        background-blend-mode: soft-light;
+        transition: 0.3s ease background-color;
+
+        h1 {
+            color: black;
         }
     }
 
@@ -271,6 +293,7 @@ header {
         background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
+        cursor: pointer;
 
         h1 {
             color: $white;
@@ -278,6 +301,16 @@ header {
             text-transform: uppercase;
             font-weight: lighter;
             margin: 1em 0 0 1em;
+        }
+    }
+
+    #section-02-image-03.click {
+        background-color: rgb(223, 223, 223);
+        background-blend-mode: soft-light;
+        transition: 0.3s ease background-color;
+
+        h1 {
+            color: black;
         }
     }
 
@@ -287,6 +320,36 @@ header {
         background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
+        cursor: pointer;
+
+        h1 {
+            color: $white;
+            font-family: $fontFamily02;
+            text-transform: uppercase;
+            font-weight: lighter;
+            margin: 1em 0 0 1em;
+        }
+    }
+    
+    #section-02-image-04.click {
+        background-color: rgb(223, 223, 223);
+        background-blend-mode: soft-light;
+        transition: 0.3s ease background-color;
+        cursor: pointer;
+
+        h1 {
+            color: black;
+        }
+    }
+
+
+    #section-02-image-05 {
+        background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-from-above.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 2em 2em 2em;
+        padding: 2em 0;
+        cursor: pointer;
 
         h1 {
             color: $white;
@@ -297,19 +360,14 @@ header {
         }
     }
 
-    #section-02-image-05 {
-        background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-from-above.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 0 2em 2em 2em;
-        padding: 2em 0;
+    #section-02-image-05.click {
+        background-color: rgb(223, 223, 223);
+        background-blend-mode: soft-light;
+        transition: 0.3s ease background-color;
+        cursor: pointer;
 
         h1 {
-            color: $white;
-            font-family: $fontFamily02;
-            text-transform: uppercase;
-            font-weight: lighter;
-            margin: 1em 0 0 1em;
+            color: black;
         }
     }
 
@@ -319,6 +377,7 @@ header {
         background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
+        cursor: pointer;
 
         h1 {
             color: $white;
@@ -326,6 +385,16 @@ header {
             text-transform: uppercase;
             font-weight: lighter;
             margin: 1em 0 0 1em;
+        }
+    }
+
+    #section-02-image-06.click {
+        background-color: rgb(223, 223, 223);
+        background-blend-mode: soft-light;
+        transition: 0.3s ease background-color;
+
+        h1 {
+            color: black;
         }
     }
 
@@ -335,6 +404,34 @@ header {
         background-size: cover;
         margin: 0 2em 2em 2em;
         padding: 2em 0;
+        cursor: pointer;
+
+        h1 {
+            color: $white;
+            font-family: $fontFamily02;
+            text-transform: uppercase;
+            font-weight: lighter;
+            margin: 1em 0 0 1em;
+        }
+    }
+    
+    #section-02-image-07.click {
+        background-color: rgb(223, 223, 223);
+        background-blend-mode: soft-light;
+        transition: 0.3s ease background-color;
+
+        h1 {
+            color: black;
+        }
+    }
+
+    #section-02-image-08 {
+        background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-fisheye.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+        margin: 0 2em 2em 2em;
+        padding: 2em 0;
+        cursor: pointer;
 
         h1 {
             color: $white;
@@ -345,19 +442,13 @@ header {
         }
     }
 
-    #section-02-image-08 {
-        background-image: radial-gradient(at bottom left, rgb(56, 56, 56) 0%, rgba(255,255,255,0) 100%), url(/images/mobile/image-fisheye.jpg);
-        background-repeat: no-repeat;
-        background-size: cover;
-        margin: 0 2em 2em 2em;
-        padding: 2em 0;
+    #section-02-image-08.click {
+        background-color: rgb(223, 223, 223);
+        background-blend-mode: soft-light;
+        transition: 0.3s ease background-color;
 
         h1 {
-            color: $white;
-            font-family: $fontFamily02;
-            text-transform: uppercase;
-            font-weight: lighter;
-            margin: 1em 0 0 1em;
+            color: black;
         }
     }
 
