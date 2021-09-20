@@ -34,6 +34,7 @@ let imageSevenText = document.querySelector('#section-02-image-07 h1');
 let imageEightText = document.querySelector('#section-02-image-08 h1');
 
 let btn = document.querySelector('button.see-all');
+let mainBody = document.body;
 
 
 
@@ -258,7 +259,6 @@ document.onclick = function(clickEvent) {
         imageSeven.classList.remove('click');
         imageEight.classList.remove('click');
     }
-
 }
 
 
